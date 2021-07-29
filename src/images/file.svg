@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1149" height="518" viewBox="0 0 1149 518">
+  <defs>
+    <filter id="Chart.BG" x="0" y="0" width="1149" height="518" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Selectbox.BG" x="965.5" y="34.5" width="139" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="BG" x="77" y="374" width="204" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="BG-2" x="290" y="374" width="204" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="BG-3" x="503" y="371" width="204" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="BG-4" x="716" y="374" width="204" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="BG-5" x="929" y="374" width="204" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-7"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_391" data-name="Group 391" transform="translate(5274 4111)">
+    <g transform="matrix(1, 0, 0, 1, -5274, -4111)" filter="url(#Chart.BG)">
+      <rect id="Chart.BG-2" data-name="Chart.BG" width="1131" height="500" transform="translate(9 7)" fill="#fff"/>
+    </g>
+    <path id="bar" d="M4,0H20a4,4,0,0,1,4,4V200.036a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(-5004.706 -3763) rotate(90)" fill="#5ee2a0"/>
+    <text id="Factory_Pipeline" data-name="Factory Pipeline" transform="translate(-5205 -4068)" fill="#4d4f5c" font-size="18" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Factory Pipeline</tspan></text>
+    <rect id="Rectangle_2031" data-name="Rectangle 2031" width="1131" height="1" transform="translate(-5265 -4029)" fill="#eaf0f4"/>
+    <path id="bar-2" data-name="bar" d="M4,0H20a4,4,0,0,1,4,4V200.036a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(-5004.706 -3979) rotate(90)" fill="#ff6565"/>
+    <path id="bar-3" data-name="bar" d="M4,0H20a4,4,0,0,1,4,4V200.036a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(-4804.669 -3910) rotate(90)" fill="#fec163"/>
+    <path id="bar-4" data-name="bar" d="M4,0H20a4,4,0,0,1,4,4V200.036a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(-4804.669 -3866) rotate(90)" fill="#fec163"/>
+    <path id="bar-5" data-name="bar" d="M4,0H20a4,4,0,0,1,4,4V200.036a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(-4577.669 -3886) rotate(90)" fill="#5ee2a0"/>
+    <path id="bar-6" data-name="bar" d="M4,0H20a4,4,0,0,1,4,4V200.036a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(-4350.669 -3886) rotate(90)" fill="#fec163"/>
+    <rect id="bar-7" data-name="bar" width="48" height="103.073" rx="14" transform="translate(-4447.632 -3898) rotate(90)" fill="#5ee2a0"/>
+    <rect id="bar-8" data-name="bar" width="48" height="103.073" rx="14" transform="translate(-4217.241 -3929) rotate(90)" fill="#5ee2a0"/>
+    <rect id="bar-9" data-name="bar" width="48" height="103.073" rx="14" transform="translate(-4218.241 -3865) rotate(90)" fill="#fec163"/>
+    <line id="Line_43" data-name="Line 43" y2="88" transform="translate(-5004.5 -3973.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_44" data-name="Line 44" y2="124" transform="translate(-5004.5 -3865.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_45" data-name="Line 45" y2="44" transform="translate(-4804.5 -3897.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_46" data-name="Line 46" x2="27.169" transform="translate(-4804.669 -3875.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_47" data-name="Line 47" x2="27.169" transform="translate(-4577.875 -3874)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_48" data-name="Line 48" x2="41.375" y2="0.5" transform="translate(-4357.875 -3886)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_49" data-name="Line 49" x2="41.375" y2="0.5" transform="translate(-4357.875 -3862)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Scrap_counter_1" data-name="Scrap counter 1" transform="translate(-5170 -3930)" fill="#4d4f5c" font-size="18" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Scrap counter 1</tspan></text>
+    <text id="Scrap_counter_2" data-name="Scrap counter 2" transform="translate(-5163 -3771)" fill="#4d4f5c" font-size="18" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Scrap counter 2</tspan></text>
+    <text id="Burner_1" data-name="Burner 1" transform="translate(-4937 -3916)" fill="#4d4f5c" font-size="18" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Burner 1</tspan></text>
+    <text id="Burner_2" data-name="Burner 2" transform="translate(-4937 -3870)" fill="#4d4f5c" font-size="18" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Burner 2</tspan></text>
+    <text id="Extrusion_Machine" data-name="Extrusion Machine" transform="translate(-4747 -3894)" fill="#4d4f5c" font-size="18" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Extrusion Machine</tspan></text>
+    <text id="Die_Machine" data-name="Die Machine" transform="translate(-4540 -3905)" fill="#4d4f5c" font-size="16" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Die Machine</tspan></text>
+    <text id="Essembly" transform="translate(-4295 -3933)" fill="#4d4f5c" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Essembly</tspan></text>
+    <text id="Packing" transform="translate(-4290 -3868)" fill="#4d4f5c" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Packing</tspan></text>
+    <g id="Selectbox.Filter" transform="translate(-4304 -4074)">
+      <g transform="matrix(1, 0, 0, 1, -970, -37)" filter="url(#Selectbox.BG)">
+        <g id="Selectbox.BG-2" data-name="Selectbox.BG" transform="translate(970 37)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+          <rect width="130" height="32" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="129" height="31" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Last_30_Days" data-name="Last 30 Days" transform="translate(12 21)" fill="#4d4f5c" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Last 30 Days</tspan></text>
+      <g id="small-down" transform="translate(107 13)">
+        <path id="Path_26" data-name="Path 26" d="M8.1,11.6,2.6,6.041,4.026,4.6,8.1,8.718,12.174,4.6,13.6,6.041Z" transform="translate(-2.6 -4.6)" fill="#a4afb7"/>
+      </g>
+    </g>
+    <text id="Show_List_Link" data-name="Show List Link" transform="translate(-4646 -3630)" fill="#3b86ff" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro" text-decoration="underline"><tspan x="-87.75" y="0">View Full Report</tspan></text>
+    <text id="Temp_Machine" data-name="Temp Machine" transform="translate(-4448 -3895)" fill="#4d4f5c" font-size="15" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Temp Machine</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -5274, -4111)" filter="url(#BG)">
+      <rect id="BG-6" data-name="BG" width="174" height="64" transform="translate(82 379)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -5274, -4111)" filter="url(#BG-2)">
+      <rect id="BG-7" data-name="BG" width="174" height="64" transform="translate(295 379)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -5274, -4111)" filter="url(#BG-3)">
+      <rect id="BG-8" data-name="BG" width="174" height="64" transform="translate(508 376)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -5274, -4111)" filter="url(#BG-4)">
+      <rect id="BG-9" data-name="BG" width="174" height="64" transform="translate(721 379)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -5274, -4111)" filter="url(#BG-5)">
+      <rect id="BG-10" data-name="BG" width="174" height="64" transform="translate(934 379)" fill="#fff"/>
+    </g>
+    <g id="Africa" transform="translate(-5172 -3700)" fill="rgba(255,65,65,0.2)" stroke="#ff4141" stroke-width="1">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+    </g>
+    <text id="Worker_Missing" data-name="Worker Missing" transform="translate(-5143 -3698)" fill="#4d4f5c" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Worker Missing</tspan></text>
+    <g id="Naked_Label" data-name="Naked Label" transform="translate(-5126 -3689.176)">
+      <text id="_13.8_" data-name="13.8%" transform="translate(12 11.176)" fill="#ff4141" font-size="11" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">13.8%</tspan></text>
+      <path id="DownArrow" d="M9,9V4A.945.945,0,0,0,8,3H8A.945.945,0,0,0,7,4V9H4l4,4,4-4Z" transform="translate(-4 -1.49)" fill="#ff4141"/>
+    </g>
+    <text id="Under_Maintenance" data-name="Under Maintenance" transform="translate(-4937 -3698)" fill="#4d4f5c" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Under Maintenance</tspan></text>
+    <g id="Africa-2" data-name="Africa" transform="translate(-4962 -3700)" fill="rgba(255,230,65,0.2)" stroke="#fec163" stroke-width="1">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+    </g>
+    <g id="Naked_Label-2" data-name="Naked Label" transform="translate(-4916 -3689.176)">
+      <text id="_1.3_" data-name="1.3%" transform="translate(12 11.176)" fill="#fec163" font-size="11" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">1.3%</tspan></text>
+      <path id="DownArrow-2" data-name="DownArrow" d="M9,9V4A.945.945,0,0,0,8,3H8A.945.945,0,0,0,7,4V9H4l4,4,4-4Z" transform="translate(-4 -1.49)" fill="#fec163"/>
+    </g>
+    <text id="No_Issue" data-name="No Issue" transform="translate(-4699 -3698)" fill="#4d4f5c" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">No Issue</tspan></text>
+    <g id="Africa-3" data-name="Africa" transform="translate(-4753 -3700)" fill="#e1fdd7" stroke="#5ee2a0" stroke-width="1">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+    </g>
+    <g id="Naked_Label-3" data-name="Naked Label" transform="translate(-4697 -3689.176)">
+      <text id="_13.2_" data-name="13.2%" transform="translate(12 11.176)" fill="#5ee2a0" font-size="11" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">13.2%</tspan></text>
+      <path id="DownArrow-3" data-name="DownArrow" d="M9,9V4A.945.945,0,0,0,8,3H8A.945.945,0,0,0,7,4V9H4l4,4,4-4Z" transform="translate(12 14.51) rotate(180)" fill="#5ee2a0"/>
+    </g>
+    <text id="No_Issue-2" data-name="No Issue" transform="translate(-4487 -3698)" fill="#4d4f5c" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">No Issue</tspan></text>
+    <g id="Africa-4" data-name="Africa" transform="translate(-4540 -3700)" fill="#e1fdd7" stroke="#5ee2a0" stroke-width="1">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+    </g>
+    <g id="Naked_Label-4" data-name="Naked Label" transform="translate(-4487 -3689.176)">
+      <text id="_22.5_" data-name="22.5%" transform="translate(12 11.176)" fill="#5ee2a0" font-size="11" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">22.5%</tspan></text>
+      <path id="DownArrow-4" data-name="DownArrow" d="M9,9V4A.945.945,0,0,0,8,3H8A.945.945,0,0,0,7,4V9H4l4,4,4-4Z" transform="translate(12 14.51) rotate(180)" fill="#5ee2a0"/>
+    </g>
+    <text id="No_Issue-3" data-name="No Issue" transform="translate(-4268 -3698)" fill="#4d4f5c" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">No Issue</tspan></text>
+    <g id="Africa-5" data-name="Africa" transform="translate(-4316 -3700)" fill="#fffad9" stroke="#fec163" stroke-width="1">
+      <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+      <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+    </g>
+    <g id="Naked_Label-5" data-name="Naked Label" transform="translate(-4264 -3689.176)">
+      <text id="_22.5_2" data-name="22.5%" transform="translate(12 11.176)" fill="#fec163" font-size="11" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">22.5%</tspan></text>
+      <path id="DownArrow-5" data-name="DownArrow" d="M9,9V4A.945.945,0,0,0,8,3H8A.945.945,0,0,0,7,4V9H4l4,4,4-4Z" transform="translate(-4 -1.49)" fill="#fec163"/>
+    </g>
+    <rect id="Rectangle_2032" data-name="Rectangle 2032" width="1131" height="1" transform="translate(-5265 -3736)" fill="#eaf0f4"/>
+  </g>
+</svg>
