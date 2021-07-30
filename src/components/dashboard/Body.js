@@ -567,10 +567,11 @@ const Body = (props) => {
                                             <table className="table table-sm table-centered mb-0">
                                                 <thead>
                                                     <tr>
+                                                        <th>Sr.No</th>
                                                         <th>IWO No.</th>
                                                         <th>Client</th>
-                                                        <th>In</th>
-                                                        <th>Out</th>
+                                                        <th>In time</th>
+                                                        <th>Out time</th>
                                                         <th>Size</th>
                                                         <th>Nos</th>
                                                         <th>Input Weight</th>
@@ -580,12 +581,15 @@ const Body = (props) => {
                                                         <th>Recovery</th>
                                                         <th>Production Speed</th>
                                                         <th>Weight Per peice</th>
+                                                        <th>Alloy</th>
+                                                        <th>Cast No.</th>
                                                         <th>Remark</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                 {props.shifts.map((shift, index) => (
                                                     <tr>
+                                                    <td>{shift.id}</td>
                                                     <td>{shift.iwo}</td>
                                                     <td>{shift.client}</td>
                                                     <td>{shift.inTime}</td>
@@ -599,6 +603,8 @@ const Body = (props) => {
                                                     <td><span className="badge badge-success">{shift.recovery} %</span></td>
                                                     <td>{shift.speed}</td>
                                                     <td>{shift.peiceWeight} <strong>kg</strong></td>
+                                                    <td>{shift.alloy}</td>
+                                                    <td></td>
                                                     <td>{shift.remark}</td>
                                                     </tr>
 

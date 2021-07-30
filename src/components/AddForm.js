@@ -208,7 +208,7 @@ const onSubmit = (e) => {
                                     <div className="col-6">
 
                                     <div className="form-group mb-3">
-                                        <input value={inTime} onChange={(e) => onInChange(e)} type="text" id="simpleinput" className="form-control" placeholder="In time" autocomplete="off" required/>
+                                        <input value={inTime} onChange={(e) => onInChange(e)} type="time" id="simpleinput" className="form-control" placeholder="In time" autocomplete="off" required/>
                                         </div>
                                     </div>
                                     
@@ -217,7 +217,7 @@ const onSubmit = (e) => {
                                     <div className="col-6">
 
                                         <div className="form-group mb-3">
-                                            <input value={outTime} onChange={(e) => onOutChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Out time" autocomplete="off" required/>
+                                            <input value={outTime} onChange={(e) => onOutChange(e)} type="time" id="simpleinput" className="form-control" placeholder="Out time" autocomplete="off" required/>
                                             </div>
                                         </div> 
 
@@ -268,7 +268,7 @@ const onSubmit = (e) => {
 
                                     <div className="col-2">
                                         <div className="form-group mb-3">
-                                            <input value={alloy} onChange={(e) => onAlloyChange(e)} type="number" id="simpleinput" className="form-control" placeholder="alloy" autocomplete="off" required/>
+                                            <input value={alloy} onChange={(e) => onAlloyChange(e)} type="text" id="simpleinput" className="form-control" placeholder="alloy" autocomplete="off" required/>
                                             </div>
                                         </div>
 
