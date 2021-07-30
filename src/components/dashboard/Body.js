@@ -560,10 +560,8 @@ const Body = (props) => {
                                 <div className="card">
                                     <div className="card-body">
 
-                                        <h4 className="header-title">Small table</h4>
-                                        <p className="text-muted font-14 mb-4">
-                                            Add <code>.table-sm</code> to make tables more compact by cutting cell padding in half.
-                                        </p>
+                                        <h4 className="header-title">Daily report</h4>
+
 
                                         <div className="table-responsive-sm">
                                             <table className="table table-sm table-centered mb-0">
@@ -581,6 +579,8 @@ const Body = (props) => {
                                                         <th>Scrap</th>
                                                         <th>Recovery</th>
                                                         <th>Production Speed</th>
+                                                        <th>Weight Per peice</th>
+                                                        <th>Remark</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -590,14 +590,16 @@ const Body = (props) => {
                                                     <td>{shift.client}</td>
                                                     <td>{shift.inTime}</td>
                                                     <td>{shift.outTime}</td>
-                                                    <td>{shift.size}</td>
+                                                    <td>{shift.size} <strong>mm</strong></td>
                                                     <td>{shift.nos}</td>
-                                                    <td>{shift.weight}</td>
-                                                    <td>{shift.outputWeight}</td>
-                                                    <td>43</td>
-                                                    <td><span className="badge badge-danger">{shift.scrap}</span></td>
-                                                    <td><span className="badge badge-success">{shift.recovery}</span></td>
+                                                    <td>{shift.weight} <strong>kg</strong></td>
+                                                    <td>{shift.outputWeight} <strong>kg</strong></td>
+                                                    <td>{shift.nos}</td>
+                                                    <td><span className="badge badge-danger">{shift.scrap} %</span></td>
+                                                    <td><span className="badge badge-success">{shift.recovery} %</span></td>
                                                     <td>{shift.speed}</td>
+                                                    <td>{shift.peiceWeight} <strong>kg</strong></td>
+                                                    <td>{shift.remark}</td>
                                                     </tr>
 
                                                     ))}

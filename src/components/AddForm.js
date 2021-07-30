@@ -17,9 +17,11 @@ const AddForm = () => {
     const [weight, setWeight] = useState("")
     const [speed, setSpeed] = useState("")
     const [outputWeight, setOutputWeight] = useState("")
+    const [peiceWeight, setPeiceWeight] = useState("")
     const [scrap, setScrap] = useState("")
     const [recovery, setRecovery] = useState("")
     const [alloy, setAlloy] = useState("")
+    const [remark, setRemarks] = useState("")
 
 
 // useEffect(() => {
@@ -28,17 +30,18 @@ const AddForm = () => {
 // }, [scrap,recovery])
 
 
-const calScrapRecovery = (inputW,outputW) => {
+const calScrapRecoveryPerPieceW = (inputW,outputW,nos) => {
     inputW = Number(inputW) || 0
     outputW = Number(outputW) || 0
     const scrap = ((inputW - outputW)/inputW)*100
     setScrap(scrap.toFixed())
     setRecovery((100-scrap).toFixed())
+    setPeiceWeight((outputWeight/nos).toFixed())
 }
 
 useEffect(()=>{
-    calScrapRecovery(weight,outputWeight)
-},[weight,outputWeight])
+    calScrapRecoveryPerPieceW(weight,outputWeight,nos)
+},[weight,outputWeight,nos])
 
 const onIwoChange = (e) => { 
     setIwo(e.target.value)
@@ -63,7 +66,7 @@ const onNosChange = (e) => {
 }
 const ontWeightChange = (e) => { 
     setWeight(e.target.value)
-    calScrapRecovery(weight,outputWeight)
+    calScrapRecoveryPerPieceW(weight,outputWeight,nos)
 
 
 }
@@ -73,9 +76,12 @@ const onSpeedChange = (e) => {
 const onAlloyChange = (e) => { 
     setAlloy(e.target.value)
 }
+const onRemarkChange = (e) => { 
+    setRemarks(e.target.value)
+}
 const onOutputWeightChange = (e) => { 
     setOutputWeight(e.target.value)
-    calScrapRecovery(weight,outputWeight)
+    calScrapRecoveryPerPieceW(weight,outputWeight,nos)
 
 }
 
@@ -83,7 +89,7 @@ const onOutputWeightChange = (e) => {
 const onSubmit = (e) => {
     e.preventDefault()
     const data = {
-        iwo,client,die,inTime,outTime,size,nos,weight,speed,outputWeight,scrap,recovery,alloy
+        iwo,client,die,inTime,outTime,size,nos,weight,speed,outputWeight,scrap,recovery,alloy,peiceWeight,remark
     }
 
     console.log(data);
@@ -164,7 +170,7 @@ const onSubmit = (e) => {
                                     <div className="col-4">
 
                                     <div className="form-group mb-3">
-                                        <input value={iwo} onChange={(e) => onIwoChange(e)} type="text" id="simpleinput" className="form-control" placeholder="IWO No." />
+                                        <input value={iwo} onChange={(e) => onIwoChange(e)} type="text" id="simpleinput" className="form-control" autocomplete="off" placeholder="IWO No." />
                                         </div>
                                     </div>
                                     
@@ -173,7 +179,7 @@ const onSubmit = (e) => {
                                     <div className="col-4">
 
                                         <div className="form-group mb-3">
-                                            <input value={client} onChange={(e) => onClientChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Client" />
+                                            <input value={client} onChange={(e) => onClientChange(e)} type="text" id="simpleinput" className="form-control" autocomplete="off" placeholder="Client" />
                                             </div>
                                         </div> 
 
@@ -181,7 +187,7 @@ const onSubmit = (e) => {
                                     <div className="col-4">
 
                                     <div className="form-group mb-3">
-                                        <input value={die} onChange={(e) => onDieChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Die No."/>
+                                        <input value={die} onChange={(e) => onDieChange(e)} type="text" id="simpleinput" className="form-control" autocomplete="off" placeholder="Die No."/>
                                         </div>
                                     </div> 
 
@@ -202,7 +208,7 @@ const onSubmit = (e) => {
                                     <div className="col-6">
 
                                     <div className="form-group mb-3">
-                                        <input value={inTime} onChange={(e) => onInChange(e)} type="text" id="simpleinput" className="form-control" placeholder="In time" />
+                                        <input value={inTime} onChange={(e) => onInChange(e)} type="text" id="simpleinput" className="form-control" placeholder="In time" autocomplete="off" required/>
                                         </div>
                                     </div>
                                     
@@ -211,7 +217,7 @@ const onSubmit = (e) => {
                                     <div className="col-6">
 
                                         <div className="form-group mb-3">
-                                            <input value={outTime} onChange={(e) => onOutChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Out time" />
+                                            <input value={outTime} onChange={(e) => onOutChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Out time" autocomplete="off" required/>
                                             </div>
                                         </div> 
 
@@ -232,51 +238,66 @@ const onSubmit = (e) => {
 
                                     <div className="col-2">
                                         <div className="form-group mb-3">
-                                            <input value={size} onChange={(e) => onSizeChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Size" />
+                                            <input value={size} onChange={(e) => onSizeChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Size" autocomplete="off" required/>
                                             </div>
                                         </div>
 
                                     <div className="col-2">
                                         <div className="form-group mb-3">
-                                            <input value={nos} onChange={(e) => onNosChange(e)} type="text" id="simpleinput" className="form-control" placeholder="No.s" />
+                                            <input value={nos} onChange={(e) => onNosChange(e)} type="text" id="simpleinput" className="form-control" placeholder="No.s" autocomplete="off" required/>
                                             </div>
                                         </div>
 
                                     <div className="col-2">
                                         <div className="form-group mb-3">
-                                            <input value={weight} onChange={(e) => ontWeightChange(e)} type="number" id="simpleinput" className="form-control" placeholder="Weight" />
+                                            <input value={weight} onChange={(e) => ontWeightChange(e)} type="number" id="simpleinput" className="form-control" placeholder="Weight" autocomplete="off" required/>
                                             </div>
                                         </div>
 
                                     <div className="col-2">
                                         <div className="form-group mb-3">
-                                            <input value={speed} onChange={(e) => onSpeedChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Production Speed" />
+                                            <input value={speed} onChange={(e) => onSpeedChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Production Speed" autocomplete="off" required/>
                                             </div>
                                         </div>
 
                                     <div className="col-2">
                                         <div className="form-group mb-3">
-                                            <input value={outputWeight} onChange={(e) => onOutputWeightChange(e)} type="number" id="simpleinput" className="form-control" placeholder="Output Weight" />
+                                            <input value={outputWeight} onChange={(e) => onOutputWeightChange(e)} type="number" id="simpleinput" className="form-control" autocomplete="off" placeholder="Output Weight" autocomplete="off" required/>
                                             </div>
                                         </div>
 
                                     <div className="col-2">
                                         <div className="form-group mb-3">
-                                            <input value={alloy} onChange={(e) => onOutputWeightChange(e)} type="number" id="simpleinput" className="form-control" placeholder="alloy" />
+                                            <input value={alloy} onChange={(e) => onAlloyChange(e)} type="number" id="simpleinput" className="form-control" placeholder="alloy" autocomplete="off" required/>
                                             </div>
                                         </div>
 
-                                    <div className="col-6">
+                                    <div className="col-2">
                                         <div className="form-group mb-3">
                                             <label>Scrap %</label>
-                                            <input value={scrap} type="text" id="simpleinput" className="form-control" placeholder="Scrap" />
+                                            <input value={scrap} readonly="" type="text" id="simpleinput" className="form-control" placeholder="Scrap" autocomplete="off" required/>
+                                            </div>
+                                        </div>
+
+                                    <div className="col-2">
+                                        <div className="form-group mb-3">
+                                            <label>Recovery %</label>
+                                            <input value={recovery} readonly=""  type="text" id="simpleinput" className="form-control" placeholder="Recovery" autocomplete="off" required/>
+                                            </div>
+                                        </div>
+
+                                    <div className="col-2">
+                                        <div className="form-group mb-3">
+                                            <label>Weight per piece (Kg)</label>
+                                            <strong><input value={peiceWeight} readonly=""  type="text" id="simpleinput" className="form-control" placeholder="Weight per piece" autocomplete="off" required/></strong>
+                        
                                             </div>
                                         </div>
 
                                     <div className="col-6">
                                         <div className="form-group mb-3">
-                                            <label>Recovery %</label>
-                                            <input value={recovery}  type="text" id="simpleinput" className="form-control" placeholder="Recovery" />
+                                            <label>Remarks</label>
+                                            <input value={remark} onChange={(e) => onRemarkChange(e)} type="text" id="simpleinput" className="form-control" placeholder="Remarks" autocomplete="off" required/>
                                             </div>
                                         </div>
 
